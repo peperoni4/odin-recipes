@@ -1,0 +1,14 @@
+body {
+    background-color:cadetblue;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.page-heading {
+    color:bisque;
+}
+
+.recipe-link {
+    color:maroon;
+    font-size: 18px;
+    font-weight: 600;
+}
