@@ -8,7 +8,35 @@ body {
 }
 
 .recipe-link {
-    color:maroon;
     font-size: 18px;
     font-weight: 600;
+}
+
+.cooked-recipe-image {
+    width: 500;
+    height: auto;
+}
+
+h2,
+.recipe-link {
+    color:rgb(250, 181, 96);
+}
+
+p {
+    font-size: 20px;
+    color: lightgrey;
+}
+
+ol li,
+h4 {
+    color:rgb(228, 186, 137);
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.step-image {
+    width: 600px;
+    height: auto;
 }
