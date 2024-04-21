@@ -3,13 +3,20 @@ body {
     font-family: Verdana, Geneva, sans-serif;
 }
 
+.container {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .page-heading {
     color:bisque;
 }
 
-.recipe-link {
+.recipe-item {
     font-size: 18px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .cooked-recipe-image {
@@ -18,7 +25,7 @@ body {
 }
 
 h2,
-.recipe-link {
+.recipe-item {
     color:rgb(250, 181, 96);
 }
 
@@ -40,4 +47,12 @@ h4 {
 .step-image {
     width: 600px;
     height: auto;
+}
+
+ul > li {
+    list-style: none;
+}
+
+li > a {
+    color: inherit;
 }
